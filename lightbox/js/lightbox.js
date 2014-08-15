@@ -25,6 +25,10 @@ var lb_Obj = {
 			lb_Obj.bodyHeight();
 			$('.white_content, .black_overlay').show();
 		});
+    
+    $( window ).resize(function() {
+			lb_Obj.bodyHeight();
+		});
 	},
 
 	hideLightBox: function(){
