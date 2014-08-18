@@ -7,9 +7,9 @@
 	height: 100%; 
 	background-color: black; 
 	z-index:1001; 
-	-moz-opacity: 0.8; 
-	opacity:.80; 
-	filter: alpha(opacity=80); /* For IE8 and earlier */
+	opacity:.80;
+  -moz-opacity: 0.8; 
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=80); /* For IE8 and earlier */
 } 
 
 .white_content { 
